@@ -6,15 +6,13 @@ function Links(){
     const items = ["How we work","Blog"," Account","View plans"];
     return <ul class="nav_links">
        {items.map((item)=>{
-           return <li class="nav_link"><a>item</a></li>
+           return <li class="nav_link"><a href={"#"+item}>{item}</a></li>
        })}
     </ul>
 }
 export default function NavBar (){
-
     return <nav class="nav">
         <img src={logo} alt="" class="nav_brand"></img>
-        <img src={hamburgerLogo} alt=""></img>
-        <Links></Links>
+        <img src={hamburgerLogo} alt="" class="nav_hamburgerMenu"></img>
     </nav>
 }
