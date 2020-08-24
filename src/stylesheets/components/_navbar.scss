@@ -1,0 +1,13 @@
+@import '../abstracts/globals';
+.nav{
+    background:$veryLightGray;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1rem;
+    .nav_brand{
+        width: 80px;
+        height:1rem;
+        align-self: center;
+    }
+}

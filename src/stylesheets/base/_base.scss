@@ -1,0 +1,19 @@
+@import './abstracts/globals';
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body {
+  font-family: $bodyFont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a{
+    text-decoration:none;
+    
+    &:hover{
+        color:$veryDarkViolet;
+        text-decoration: none;
+    }
+}

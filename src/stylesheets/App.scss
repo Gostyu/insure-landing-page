@@ -1,0 +1,9 @@
+@import './abstracts/globals';
+
+.App {
+  min-width: $mobileWidth;
+  max-width: $desktopWidth;
+  display: flex;
+  flex-direction: column;
+}
+
