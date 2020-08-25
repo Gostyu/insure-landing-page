@@ -1,6 +1,5 @@
 @import '../abstracts/globals';
 .footer{
-    border: 1px solid red;
     display:flex;
     flex-flow: column;
     justify-content: space-between;
@@ -48,6 +47,7 @@
     .footerSectionItemTitle{
         color:$darkGrayishViolet;
         font-size:0.99rem;
+        padding:2rem 0;
     }
     .footerSectionContainer{
         display:flex;
@@ -65,7 +65,7 @@
     .footerSectionItemLink a{
         color:$veryDarkViolet;
         font-weight: $bold;
-        font-size:0.73rem;
+        font-size:0.9rem;
     }
 
 }
