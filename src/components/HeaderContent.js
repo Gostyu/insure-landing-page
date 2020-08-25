@@ -9,7 +9,7 @@ function HeaderBody(){
     return <section className="headerBody">
     <img src={bgPatternIntroLeft} alt="" className=""/>
     <div className="headerBody_content">
-    <h1 className="headerBody_title">Humanizing<br/>your insurance.</h1>
+    <h1 className="headerBody_title">Humanizing your insurance.</h1>
     <p className="headerBody_text"> 
     Get your life insurance coverage easier and faster. We blend our expertise 
 and technology to help you find the plan that’s right for you. Ensure you 
@@ -22,7 +22,7 @@ and your loved ones are protected.
 }
 export default function HeaderContent(){
     return <div className="headerContent">
-       <div><img src={imageIntro} class="headerContent_imgIntro"/>
+       <div><img src={imageIntro} className="headerContent_imgIntro"/>
        </div>
         <HeaderBody></HeaderBody>
     </div>;

@@ -1,0 +1,46 @@
+@import '../abstracts/globals';
+.content{
+    border:1px solid green;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-top:5rem;
+    .contentLine{
+        border: 0.010rem solid $darkGrayishViolet;
+        width: 155px;
+        margin:2rem 0;
+        position: relative;
+        top:25px;
+    }
+    .contentTitle{
+        padding:2rem 0;
+        font-family: $headingFont;
+        font-weight: $bold;
+        font-size:3rem;
+        letter-spacing: -2px;
+    }
+    .contentChild{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    .contentChild_img{
+        padding: 2.13rem 0;
+    }
+    .contentChild_title{
+        font-family: $headingFont;
+        font-weight: $bold;
+        font-size:1.8rem;
+    }
+    .contentChild_text{
+        padding:1.28rem 1.6rem;
+        text-align:center;
+        white-space: normal;
+        word-break: normal;
+        color:$darkGrayishViolet;
+        font-family: $bodyFont;
+        line-height: 1.7rem;
+    }
+}
