@@ -1,6 +1,6 @@
 import React from 'react';
 import '../stylesheets/components/_headerContent.scss';
-import Button from '../components/Button';
+import HeaderBodyButton from '../components/HeaderBodyButton';
 import imageIntro from '../images/image-intro-mobile.jpg';
 import bgPatternIntroRight from '../images/bg-pattern-intro-right-mobile.svg';
 import bgPatternIntroLeft from '../images/bg-pattern-intro-left-mobile.svg';
@@ -15,14 +15,14 @@ function HeaderBody(){
 and technology to help you find the plan that’s right for you. Ensure you 
 and your loved ones are protected.
     </p>
-    <Button text={textBtn.toLocaleUpperCase()}></Button>
+    <HeaderBodyButton text={textBtn.toLocaleUpperCase()}></HeaderBodyButton>
     </div>
     <img src={bgPatternIntroRight} alt="" className="headerBody_bgPatternIntroRight"/>
 </section>
 }
 export default function HeaderContent(){
     return <div className="headerContent">
-       <div><img src={imageIntro} className="headerContent_imgIntro"/>
+       <div><img src={imageIntro} className="headerContent_imgIntro" alt=""/>
        </div>
         <HeaderBody></HeaderBody>
     </div>;

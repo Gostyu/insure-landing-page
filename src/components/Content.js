@@ -1,7 +1,7 @@
-import React, { Children } from 'react';
+import React from 'react';
 import '../stylesheets/layouts/_content.scss';
 import contents from '../models/content_data.js';
-import Button from '../components/Button';
+import ContentSectionButton from './ContentBodyButton'
 import bgPatternHww from '../images/bg-pattern-how-we-work-mobile.svg';
 const ContentChild = (props)=>{
     return  <div className="contentChild">
@@ -23,7 +23,7 @@ export default function Content(){
         <section className="contentSection">
             <img className="contentSectionImg" src={bgPatternHww} alt=""></img>
             <h1 className="contentSectionText">Find out more about how we work</h1>
-            <Button text="How we work"></Button>
+            <ContentSectionButton text="How we work"></ContentSectionButton>
         </section>
     </main>;
 }
