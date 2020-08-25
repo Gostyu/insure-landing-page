@@ -1,0 +1,14 @@
+@import '../abstracts/globals';
+
+.btn{
+    border:1px solid $veryLightGray;
+    background:$darkViolet;
+    color:$veryLightGray;
+    padding: 0.7rem 1.6rem;
+    letter-spacing: 2px;
+    font-size:0.66rem;
+    &:hover{
+        background:$veryLightGray;
+        color:$darkViolet;
+    }
+}
