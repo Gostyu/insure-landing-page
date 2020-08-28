@@ -2,7 +2,7 @@
   "name": "insure_landing_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gostyu.github.io/insure-landing-page/.",
+  "homepage": "https://gostyu.github.io/insure-landing-page/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
