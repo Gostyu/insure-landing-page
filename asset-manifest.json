@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/insure-landing-page/static/css/main.9c9e27c9.chunk.css",
-    "main.js": "/insure-landing-page/static/js/main.da829d93.chunk.js",
-    "main.js.map": "/insure-landing-page/static/js/main.da829d93.chunk.js.map",
+    "main.js": "/insure-landing-page/static/js/main.1ab3f11b.chunk.js",
+    "main.js.map": "/insure-landing-page/static/js/main.1ab3f11b.chunk.js.map",
     "runtime-main.js": "/insure-landing-page/static/js/runtime-main.dd5516c1.js",
     "runtime-main.js.map": "/insure-landing-page/static/js/runtime-main.dd5516c1.js.map",
     "static/js/2.351137fa.chunk.js": "/insure-landing-page/static/js/2.351137fa.chunk.js",
     "static/js/2.351137fa.chunk.js.map": "/insure-landing-page/static/js/2.351137fa.chunk.js.map",
     "index.html": "/insure-landing-page/index.html",
-    "precache-manifest.be6a0cf083f96cb303aeb9fd04f4f225.js": "/insure-landing-page/precache-manifest.be6a0cf083f96cb303aeb9fd04f4f225.js",
+    "precache-manifest.6e5a53d07e1e0067fe64e9590e7b9cce.js": "/insure-landing-page/precache-manifest.6e5a53d07e1e0067fe64e9590e7b9cce.js",
     "service-worker.js": "/insure-landing-page/service-worker.js",
     "static/css/main.9c9e27c9.chunk.css.map": "/insure-landing-page/static/css/main.9c9e27c9.chunk.css.map",
     "static/js/2.351137fa.chunk.js.LICENSE.txt": "/insure-landing-page/static/js/2.351137fa.chunk.js.LICENSE.txt",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.dd5516c1.js",
     "static/js/2.351137fa.chunk.js",
     "static/css/main.9c9e27c9.chunk.css",
-    "static/js/main.da829d93.chunk.js"
+    "static/js/main.1ab3f11b.chunk.js"
   ]
 }
