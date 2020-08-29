@@ -13,12 +13,20 @@
     .nav_links{
         display: none;
     }
-    @media screen and (min-width:520px) {
+    @media screen and (min-width:525px){
+        .nav{
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+        }
         .nav_hamburgerMenu{
             display:none;
         }
         .nav_links{
             display: flex;
+            justify-content: space-between;
+            border:1px solid red;
+            width: 350px;
         }
     }
 }
