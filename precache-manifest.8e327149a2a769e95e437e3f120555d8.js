@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "929be2dc26bfbbcbfbaf512cdddf2df2",
+    "revision": "453b46bb777aacd958b0b0eb5c6bfc5f",
     "url": "/insure-landing-page/index.html"
   },
   {
-    "revision": "a62ca2b674f328b5700a",
-    "url": "/insure-landing-page/static/css/main.d0ab1755.chunk.css"
+    "revision": "f11ec0cf95d7bb14b1d8",
+    "url": "/insure-landing-page/static/css/main.fbe0133d.chunk.css"
   },
   {
     "revision": "e490cac59a70c3660601",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/insure-landing-page/static/js/2.351137fa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a62ca2b674f328b5700a",
-    "url": "/insure-landing-page/static/js/main.2220c0a5.chunk.js"
+    "revision": "f11ec0cf95d7bb14b1d8",
+    "url": "/insure-landing-page/static/js/main.44fd7066.chunk.js"
   },
   {
     "revision": "223baf2318f7ad551d90",
