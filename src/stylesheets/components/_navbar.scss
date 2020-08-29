@@ -13,20 +13,35 @@
     .nav_links{
         display: none;
     }
-    @media screen and (min-width:525px){
-        .nav{
-            display: flex;
-            justify-content: space-around;
-            align-content: center;
-        }
+}
+@media screen and (min-width:525px){
+    .nav{
+        justify-content: space-around;
+        align-content: center;
+        width: 100%;
         .nav_hamburgerMenu{
             display:none;
         }
         .nav_links{
             display: flex;
             justify-content: space-between;
-            border:1px solid red;
-            width: 350px;
+            align-items: center;
+            width: 450px;
+            .nav_link a{
+                color:$darkGrayishViolet;
+                &:hover{
+                    color:$veryDarkViolet;
+                }
+            }
+            .nav_links_btn{
+                font-size:0.9rem;
+            }
+            .nav_links_btn:hover{
+                background:$veryLightGray;
+                color:$veryDarkViolet;
+                border:1px solid $veryDarkViolet;
+            }
         }
     }
+  
 }
