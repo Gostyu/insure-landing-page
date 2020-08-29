@@ -1,47 +1,5 @@
  @import '../abstracts/globals';
+ @import '../components/headerContent';
 .header{
     height:100%;
-    .headerContent_imgIntro{
-        display: block;
-    }
-    .headerBody{
-        background:$darkViolet;
-        margin-top:-4px;
-        position:relative;
-        height:470px;
-    }
-    .headerBody_content{
-        position: relative;
-        top:-5em;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-    }
-    .headerBody_title{
-        color:$veryLightGray;
-        font-size: 3rem;
-        font-weight: $bold;
-        font-family: $headingFont;
-        text-align: center;
-        white-space: normal;
-        padding:0 1.25rem;
-    }
-    .headerBody_text{
-        color:$veryLightGray;
-        font-size:0.9rem;
-        font-weight: 200;
-        text-align: center;
-        padding:1.25rem 2rem 2rem 2rem;
-        white-space: normal;
-        word-spacing: 3px;
-    }
-    .headerBody_btn--center{
-        align-self: center;
-    }
-    .headerBody_bgPatternIntroRight{
-        position: absolute;
-        right:0;
-        bottom:-37%;
-    }
 }

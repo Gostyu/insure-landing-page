@@ -14,5 +14,6 @@ export default function NavBar (){
     return <nav className="nav">
         <img src={logo} alt="" className="nav_brand"></img>
         <img src={hamburgerLogo} alt="" className="nav_hamburgerMenu"></img>
+        <Links></Links>
     </nav>
 }

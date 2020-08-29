@@ -11,7 +11,14 @@
         align-self: center;
     }
     .nav_links{
-        display: flex;
+        display: none;
     }
-
+    @media screen and (min-width:520px) {
+        .nav_hamburgerMenu{
+            display:none;
+        }
+        .nav_links{
+            display: flex;
+        }
+    }
 }
